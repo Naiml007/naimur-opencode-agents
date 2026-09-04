@@ -1,7 +1,7 @@
 ---
 description: Implements tasks from the plan. Writes and edits code.
 mode: primary
-model: opencode/laguna-s-2.1-free
+model: opencode/mimo-v2.5-free
 temperature: 0.2
 permission:
   edit: allow
