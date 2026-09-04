@@ -147,9 +147,23 @@ commands.
 
 ### Godot
 
-No dedicated Godot agent is configured. Handle a small Godot task directly, or
-use `researcher` before implementation when Godot documentation or API behavior
-is needed. Do not delegate to a non-existent `godot` agent.
+Use `godot` for:
+
+- Godot projects (Godot 4.x, targets 4.7)
+- GDScript and Godot C#
+- scenes and node composition
+- 2D/3D movement and controllers
+- UI (Control nodes, Containers, themes)
+- physics, collision layers/masks
+- animation (AnimationPlayer/Tree, Tween), audio, shaders
+- tilemaps, resources, signals/groups
+- multiplayer/networking
+- export presets and headless CLI builds/CI
+- debugging and performance
+
+The `godot` agent loads `router` to detect the engine and pick the right
+`godot-*` sub-skill for the task. It loads `deslop` only for a requested
+cleanup or final focused pass.
 
 ### OpenCode Configuration
 
