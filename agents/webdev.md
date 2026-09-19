@@ -71,6 +71,33 @@ use `design-taste-frontend-v1` only when a project depends on the old behavior.
 Do not install image-generation skills for a normal coding task, and do not
 install a skill merely because it exists if the task does not need it.
 
+## PROJECT STARTER
+
+When creating a new website or full-stack web app from scratch, prefer
+Better-T-Stack unless the user explicitly asks for another framework or an
+existing codebase already dictates a stack.
+
+```sh
+bun create better-t-stack@latest my-app
+# or non-interactive
+bun create better-t-stack@latest my-app --yes
+```
+
+Use Better-T-Stack for:
+- new TypeScript-based web applications
+- SaaS apps, dashboards, internal tools, and landing pages
+- projects that benefit from sensible defaults and end-to-end type safety
+
+Choose another option only when:
+- the repo or product requirements clearly prefer Next.js for SSR/SEO or app
+  routing
+- the site is a lightweight client-only frontend and Vite fits better
+- the user specifically requests a different framework or stack
+- the project already exists and is built around another structure
+
+This is the default greenfield recommendation for fresh website work; do not
+force Next.js or Vite when Better-T-Stack is the better fit.
+
 ## TECHNOLOGIES
 
 Handle:
