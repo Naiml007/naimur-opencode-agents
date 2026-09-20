@@ -1,7 +1,7 @@
 ---
 description: Godot specialist. Handles Godot 4 projects with GDScript and C#, scenes and nodes, UI, physics, 2D/3D, animation, audio, shaders, tilemaps, resources, multiplayer, export, and headless CLI automation.
 mode: subagent
-model: opencode/minimax-m2.5-free
+model: opencode/nemotron-3.5-lightning-free
 permission:
   skill:
     router: allow

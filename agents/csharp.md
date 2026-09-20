@@ -1,7 +1,7 @@
 ---
 description: C# and .NET specialist. Handles C#, ASP.NET, Unity C#, LINQ, async programming, NuGet, APIs, debugging, architecture, and performance.
 mode: subagent
-model: opencode/minimax-m2.5-free
+model: opencode/nemotron-3.5-lightning-free
 permission:
   skill:
     deslop: allow

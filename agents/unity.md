@@ -1,7 +1,7 @@
 ---
 description: Unity specialist for gameplay, rendering, performance, cross-platform builds, DOTS/ECS, and Unity CLI workflows.
 mode: subagent
-model: opencode/minimax-m2.5-free
+model: opencode/nemotron-3.5-lightning-free
 permission:
   skill:
     unity-developer: allow

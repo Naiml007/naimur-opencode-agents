@@ -1,7 +1,7 @@
 ---
 description: FiveM specialist. Handles FiveM Lua resources, client/server scripts, NUI, ESX, QBCore, ox_lib, networking, events, callbacks, fxmanifest, and FiveM debugging.
 mode: subagent
-model: opencode/minimax-m2.5-free
+model: opencode/nemotron-3.5-lightning-free
 permission:
   skill:
     deslop: allow
