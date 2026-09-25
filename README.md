@@ -1,5 +1,7 @@
 # GitHub Project Docs Automation
 
+[![Documentation](https://img.shields.io/badge/Docs-Mintlify-blue?style=for-the-badge)](https://dis-1abe53be.mintlify.site/)
+
 The included GitHub Actions workflow creates a Markdown document describing every tracked file in the repository and commits it as `PROJECT_DOCUMENTATION.md`.
 
 ## Usage
@@ -17,6 +19,6 @@ node bin/github-project-docs.js --repo OWNER/REPOSITORY --ref main --output docs
 node bin/github-project-docs.js --repo OWNER/REPOSITORY --include-source --max-source-lines 120
 ```
 
-The generated document contains repository metadata, a searchable file index, language and size information, a purpose note for each file, GitHub links, and optional source excerpts. Purpose notes are conservative filename and header-based summaries; for semantic explanations, review the linked source or connect this output to a code-understanding model.
+The generated document contains repository metadata, a searchable file index, language and size information, a purpose note for each file, GitHub links, and optional source excerpts. Purpose notes are conservative filename and header-based summaries; semantic explanations require human review for accuracy.
 
-Requirements: Node.js 18+ and GitHub CLI (`gh`) authenticated with access to the target repository. The generated purpose notes are conservative filename and header-based summaries; semantic explanations require a code-understanding model.
+Requirements: Node.js 18+ and GitHub CLI (`gh`) authenticated with access to the target repository.
