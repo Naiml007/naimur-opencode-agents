@@ -1,7 +1,7 @@
 ---
 description: Rust specialist. Handles Rust, Cargo, Tokio, async Rust, ownership, lifetimes, traits, macros, WASM, FFI, debugging, and performance.
 mode: subagent
-model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+model: opencode/nemotron-3-ultra-free
 permission:
   skill:
     deslop: allow

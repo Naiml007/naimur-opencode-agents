@@ -1,7 +1,7 @@
 ---
 description: Writes and runs tests, reports failures clearly.
 mode: subagent
-model: opencode/mimo-v2.5-free
+model: opencode/mimo-v2.6-flash-free
 temperature: 0.2
 permission:
   edit: allow

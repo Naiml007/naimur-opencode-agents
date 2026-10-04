@@ -1,7 +1,7 @@
 ---
 description: Discord bot specialist for Discord APIs, interactions, slash commands, Gateway events, permissions, and Cloudflare Workers.
 mode: subagent
-model: opencode/muse-spark-1.2-contributor-free
+model: opencode/muse-spark-1.3-contributor-free
 permission:
   skill:
     discord-bot: allow

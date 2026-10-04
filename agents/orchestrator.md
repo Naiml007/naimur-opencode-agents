@@ -63,6 +63,59 @@ Use `rust` for:
 - Rust debugging
 - Rust performance
 
+### Go
+
+Use `go` for:
+
+- Go
+- go.mod and modules
+- goroutines
+- channels
+- select
+- context and cancellation
+- interfaces and embedding
+- generics
+- stdlib
+- net/http
+- encoding/json
+- Go testing and benchmarks
+- race detection and profiling
+- Go cross-compilation and build tags
+- Go networking
+- Go debugging
+- Go performance
+
+Route generic REST API or JSON schema work to `go` only when the backend is Go;
+otherwise use `webdev` or the language specialist that owns the backend.
+
+### C++
+
+Use `cpp` for:
+
+- C++
+- C++17 / C++20 / C++23
+- CMake
+- the STL
+- templates
+- RAII
+- smart pointers and ownership
+- move semantics
+- const correctness
+- references and lifetimes
+- operator overloading
+- exception safety
+- undefined behavior
+- manual memory management
+- C++ concurrency (std::thread, atomics, mutex)
+- sanitizers (ASan, UBSan, TSan)
+- Valgrind
+- gdb and lldb
+- C++ debugging
+- C++ performance
+
+Route Unreal Engine or engine-specific C++ to the engine specialist that owns
+the project; use `cpp` for standalone C++ and native libraries.
+
 ### FiveM
 
 Use `fivem` for:
