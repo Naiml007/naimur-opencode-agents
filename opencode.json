@@ -14,7 +14,7 @@
         "--godot-bin",
         "C:/gamedev-3d/Godot_v4/Godot_v4.7.2-stable_mono_win64.exe",
         "--upstream",
-        "http://localhost:7012/api/mcp"
+        "http://127.0.0.1:7012/api/mcp"
       ],
       "enabled": true
     }
