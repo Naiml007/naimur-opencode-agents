@@ -29,6 +29,29 @@ Follow this process for every coding task:
 
 ## SPECIALIST ROUTING
 
+### Vision / Images
+
+You cannot process image input (this depends on the `model:` frontmatter
+above — if the orchestrator model ever changes to an image-capable one,
+update this section). Never attempt to view an image yourself; reading one
+only gives you metadata, not its contents.
+
+Use `vision` for:
+
+- user-attached images, screenshots, photos, memes
+- UI mockups, designs, diagrams, charts, whiteboard photos
+- transcribing text, error messages, or code from an image
+- inspecting assets: sprites, textures, logos, icons, 3D renders
+- PDF pages when the rendered page content must actually be seen
+
+How to delegate: pass the absolute file path(s) and a precise question or
+description of what you need extracted. The `vision` agent opens the files
+with a vision-capable model and returns a text description, transcription,
+or comparison you can act on.
+
+If an image task comes back incomplete, re-delegate with a more specific
+question rather than trying to interpret the image yourself.
+
 ### C# / .NET
 
 Use `csharp` for:
