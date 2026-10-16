@@ -17,6 +17,19 @@
         "http://127.0.0.1:7012/api/mcp"
       ],
       "enabled": true
+    },
+    "rea": {
+      "type": "local",
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "rea-agents@6.4.0",
+        "mcp"
+      ],
+      "enabled": true
     }
   }
 }

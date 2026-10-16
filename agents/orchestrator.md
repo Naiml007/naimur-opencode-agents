@@ -6,6 +6,8 @@ permission:
   skill:
     find-skills: allow
     customize-opencode: allow
+    learn: allow
+    reset: allow
 ---
 
 You are the main coding orchestrator.
