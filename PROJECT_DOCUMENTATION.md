@@ -1,7 +1,7 @@
 # Naiml007/naimur-opencode-agents Project Documentation
 
-Generated from [Naiml007/naimur-opencode-agents](https://github.com/Naiml007/naimur-opencode-agents) on 2026-10-06.
-Default branch: `main` | Files documented: **27**
+Generated from [Naiml007/naimur-opencode-agents](https://github.com/Naiml007/naimur-opencode-agents) on 2026-10-16.
+Default branch: `main` | Files documented: **40**
 
 ## Repository Overview
 
@@ -11,219 +11,323 @@ Naimur's opencode agents configuration
 
 | File | Language | Size | Purpose |
 | --- | --- | ---: | --- |
-| [`.github/workflows/project-documentation.yml`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/.github/workflows/project-documentation.yml) | YAML | 981 bytes | Project configuration or tool settings. |
-| [`PROJECT_DOCUMENTATION.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/PROJECT_DOCUMENTATION.md) | Markdown | 15,443 bytes | Naiml007/naimur-opencode-agents Project Documentation |
-| [`README.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/README.md) | Markdown | 1,320 bytes | Project introduction, setup, and usage documentation. |
-| [`agents/code-researcher.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/code-researcher.md) | Markdown | 6,969 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/code-reviewer.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/code-reviewer.md) | Markdown | 1,011 bytes | User-interface component or screen. |
-| [`agents/cpp.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/cpp.md) | Markdown | 3,592 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/csharp.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/csharp.md) | Markdown | 1,279 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/dev.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/dev.md) | Markdown | 673 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/discord.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/discord.md) | Markdown | 1,074 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/fivem.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/fivem.md) | Markdown | 1,523 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/go.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/go.md) | Markdown | 2,559 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/godot.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/godot.md) | Markdown | 3,648 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/opencode.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/opencode.md) | Markdown | 616 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/orchestrator.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/orchestrator.md) | Markdown | 8,551 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/planner.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/planner.md) | Markdown | 546 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/researcher.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/researcher.md) | Markdown | 1,073 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/rust.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/rust.md) | Markdown | 1,271 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/tester.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/tester.md) | Markdown | 525 bytes | Automated tests for project behavior. |
-| [`agents/unity.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/unity.md) | Markdown | 1,149 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/vision.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/vision.md) | Markdown | 3,636 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`agents/webdev.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/webdev.md) | Markdown | 7,708 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`bin/github-project-docs.js`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/bin/github-project-docs.js) | JavaScript | 8,146 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`opencode.json`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/opencode.json) | JSON | 501 bytes | Project configuration or tool settings. |
-| [`opencode.jsonc`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/opencode.jsonc) | Other | 501 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`skills/awesome-design-md/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/skills/awesome-design-md/SKILL.md) | Markdown | 3,760 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`skills/customize-opencode/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/skills/customize-opencode/SKILL.md) | Markdown | 1,824 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
-| [`skills/unity-cli-helper/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/skills/unity-cli-helper/SKILL.md) | Markdown | 3,742 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`.agents/plugins/marketplace.json`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/.agents/plugins/marketplace.json) | JSON | 354 bytes | Project configuration or tool settings. |
+| [`.github/workflows/project-documentation.yml`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/.github/workflows/project-documentation.yml) | YAML | 981 bytes | Project configuration or tool settings. |
+| [`PROJECT_DOCUMENTATION.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/PROJECT_DOCUMENTATION.md) | Markdown | 16,039 bytes | Naiml007/naimur-opencode-agents Project Documentation |
+| [`README.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/README.md) | Markdown | 1,320 bytes | Project introduction, setup, and usage documentation. |
+| [`agents/code-researcher.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/code-researcher.md) | Markdown | 6,969 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/code-reviewer.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/code-reviewer.md) | Markdown | 1,011 bytes | User-interface component or screen. |
+| [`agents/cpp.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/cpp.md) | Markdown | 3,592 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/csharp.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/csharp.md) | Markdown | 1,279 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/dev.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/dev.md) | Markdown | 673 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/discord.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/discord.md) | Markdown | 1,074 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/fivem.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/fivem.md) | Markdown | 1,523 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/go.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/go.md) | Markdown | 2,559 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/godot.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/godot.md) | Markdown | 3,648 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/opencode.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/opencode.md) | Markdown | 616 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/orchestrator.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/orchestrator.md) | Markdown | 8,585 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/planner.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/planner.md) | Markdown | 546 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/researcher.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/researcher.md) | Markdown | 1,073 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/rust.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/rust.md) | Markdown | 1,271 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/tester.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/tester.md) | Markdown | 525 bytes | Automated tests for project behavior. |
+| [`agents/unity.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/unity.md) | Markdown | 1,149 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/vision.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/vision.md) | Markdown | 3,636 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`agents/webdev.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/webdev.md) | Markdown | 7,708 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`bin/github-project-docs.js`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/bin/github-project-docs.js) | JavaScript | 8,146 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`hooks/hooks.json`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/hooks/hooks.json) | JSON | 408 bytes | Project configuration or tool settings. |
+| [`hooks/session_start.py`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/hooks/session_start.py) | Python | 5,822 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`opencode.json`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/opencode.json) | JSON | 712 bytes | Project configuration or tool settings. |
+| [`opencode.jsonc`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/opencode.jsonc) | Other | 501 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`skills/awesome-design-md/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/awesome-design-md/SKILL.md) | Markdown | 3,760 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`skills/customize-opencode/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/customize-opencode/SKILL.md) | Markdown | 1,824 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`skills/learn/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/SKILL.md) | Markdown | 3,270 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`skills/learn/agents/openai.yaml`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/agents/openai.yaml) | YAML | 153 bytes | Project configuration or tool settings. |
+| [`skills/learn/behavior.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/behavior.md) | Markdown | 8,097 bytes | VibeWise learning behavior |
+| [`skills/learn/codex.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/codex.md) | Markdown | 1,344 bytes | VibeWise in Codex |
+| [`skills/learn/onboarding.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/onboarding.md) | Markdown | 3,823 bytes | Onboarding |
+| [`skills/learn/state-templates.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/state-templates.md) | Markdown | 3,481 bytes | Local state templates |
+| [`skills/reset/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/SKILL.md) | Markdown | 2,684 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`skills/reset/agents/openai.yaml`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/agents/openai.yaml) | YAML | 156 bytes | Project configuration or tool settings. |
+| [`skills/reset/codex.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/codex.md) | Markdown | 780 bytes | VibeWise Reset in Codex |
+| [`skills/reset/reset.py`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/reset.py) | Python | 4,240 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+| [`skills/unity-cli-helper/SKILL.md`](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/unity-cli-helper/SKILL.md) | Markdown | 3,742 bytes | Project source, asset, or supporting file; inspect the linked contents for implementation details. |
+
+## .agents/plugins/marketplace.json
+
+- **Language:** JSON
+- **Size:** 354 bytes
+- **Purpose:** Project configuration or tool settings.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/.agents/plugins/marketplace.json)
 
 ## .github/workflows/project-documentation.yml
 
 - **Language:** YAML
 - **Size:** 981 bytes
 - **Purpose:** Project configuration or tool settings.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/.github/workflows/project-documentation.yml)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/.github/workflows/project-documentation.yml)
 
 ## PROJECT_DOCUMENTATION.md
 
 - **Language:** Markdown
-- **Size:** 15,443 bytes
+- **Size:** 16,039 bytes
 - **Purpose:** Naiml007/naimur-opencode-agents Project Documentation
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/PROJECT_DOCUMENTATION.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/PROJECT_DOCUMENTATION.md)
 
 ## README.md
 
 - **Language:** Markdown
 - **Size:** 1,320 bytes
 - **Purpose:** Project introduction, setup, and usage documentation.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/README.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/README.md)
 
 ## agents/code-researcher.md
 
 - **Language:** Markdown
 - **Size:** 6,969 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/code-researcher.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/code-researcher.md)
 
 ## agents/code-reviewer.md
 
 - **Language:** Markdown
 - **Size:** 1,011 bytes
 - **Purpose:** User-interface component or screen.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/code-reviewer.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/code-reviewer.md)
 
 ## agents/cpp.md
 
 - **Language:** Markdown
 - **Size:** 3,592 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/cpp.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/cpp.md)
 
 ## agents/csharp.md
 
 - **Language:** Markdown
 - **Size:** 1,279 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/csharp.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/csharp.md)
 
 ## agents/dev.md
 
 - **Language:** Markdown
 - **Size:** 673 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/dev.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/dev.md)
 
 ## agents/discord.md
 
 - **Language:** Markdown
 - **Size:** 1,074 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/discord.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/discord.md)
 
 ## agents/fivem.md
 
 - **Language:** Markdown
 - **Size:** 1,523 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/fivem.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/fivem.md)
 
 ## agents/go.md
 
 - **Language:** Markdown
 - **Size:** 2,559 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/go.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/go.md)
 
 ## agents/godot.md
 
 - **Language:** Markdown
 - **Size:** 3,648 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/godot.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/godot.md)
 
 ## agents/opencode.md
 
 - **Language:** Markdown
 - **Size:** 616 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/opencode.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/opencode.md)
 
 ## agents/orchestrator.md
 
 - **Language:** Markdown
-- **Size:** 8,551 bytes
+- **Size:** 8,585 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/orchestrator.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/orchestrator.md)
 
 ## agents/planner.md
 
 - **Language:** Markdown
 - **Size:** 546 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/planner.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/planner.md)
 
 ## agents/researcher.md
 
 - **Language:** Markdown
 - **Size:** 1,073 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/researcher.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/researcher.md)
 
 ## agents/rust.md
 
 - **Language:** Markdown
 - **Size:** 1,271 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/rust.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/rust.md)
 
 ## agents/tester.md
 
 - **Language:** Markdown
 - **Size:** 525 bytes
 - **Purpose:** Automated tests for project behavior.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/tester.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/tester.md)
 
 ## agents/unity.md
 
 - **Language:** Markdown
 - **Size:** 1,149 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/unity.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/unity.md)
 
 ## agents/vision.md
 
 - **Language:** Markdown
 - **Size:** 3,636 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/vision.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/vision.md)
 
 ## agents/webdev.md
 
 - **Language:** Markdown
 - **Size:** 7,708 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/agents/webdev.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/agents/webdev.md)
 
 ## bin/github-project-docs.js
 
 - **Language:** JavaScript
 - **Size:** 8,146 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/bin/github-project-docs.js)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/bin/github-project-docs.js)
+
+## hooks/hooks.json
+
+- **Language:** JSON
+- **Size:** 408 bytes
+- **Purpose:** Project configuration or tool settings.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/hooks/hooks.json)
+
+## hooks/session_start.py
+
+- **Language:** Python
+- **Size:** 5,822 bytes
+- **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/hooks/session_start.py)
 
 ## opencode.json
 
 - **Language:** JSON
-- **Size:** 501 bytes
+- **Size:** 712 bytes
 - **Purpose:** Project configuration or tool settings.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/opencode.json)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/opencode.json)
 
 ## opencode.jsonc
 
 - **Language:** Other
 - **Size:** 501 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/opencode.jsonc)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/opencode.jsonc)
 
 ## skills/awesome-design-md/SKILL.md
 
 - **Language:** Markdown
 - **Size:** 3,760 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/skills/awesome-design-md/SKILL.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/awesome-design-md/SKILL.md)
 
 ## skills/customize-opencode/SKILL.md
 
 - **Language:** Markdown
 - **Size:** 1,824 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/skills/customize-opencode/SKILL.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/customize-opencode/SKILL.md)
+
+## skills/learn/SKILL.md
+
+- **Language:** Markdown
+- **Size:** 3,270 bytes
+- **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/SKILL.md)
+
+## skills/learn/agents/openai.yaml
+
+- **Language:** YAML
+- **Size:** 153 bytes
+- **Purpose:** Project configuration or tool settings.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/agents/openai.yaml)
+
+## skills/learn/behavior.md
+
+- **Language:** Markdown
+- **Size:** 8,097 bytes
+- **Purpose:** VibeWise learning behavior
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/behavior.md)
+
+## skills/learn/codex.md
+
+- **Language:** Markdown
+- **Size:** 1,344 bytes
+- **Purpose:** VibeWise in Codex
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/codex.md)
+
+## skills/learn/onboarding.md
+
+- **Language:** Markdown
+- **Size:** 3,823 bytes
+- **Purpose:** Onboarding
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/onboarding.md)
+
+## skills/learn/state-templates.md
+
+- **Language:** Markdown
+- **Size:** 3,481 bytes
+- **Purpose:** Local state templates
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/learn/state-templates.md)
+
+## skills/reset/SKILL.md
+
+- **Language:** Markdown
+- **Size:** 2,684 bytes
+- **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/SKILL.md)
+
+## skills/reset/agents/openai.yaml
+
+- **Language:** YAML
+- **Size:** 156 bytes
+- **Purpose:** Project configuration or tool settings.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/agents/openai.yaml)
+
+## skills/reset/codex.md
+
+- **Language:** Markdown
+- **Size:** 780 bytes
+- **Purpose:** VibeWise Reset in Codex
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/codex.md)
+
+## skills/reset/reset.py
+
+- **Language:** Python
+- **Size:** 4,240 bytes
+- **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/reset/reset.py)
 
 ## skills/unity-cli-helper/SKILL.md
 
 - **Language:** Markdown
 - **Size:** 3,742 bytes
 - **Purpose:** Project source, asset, or supporting file; inspect the linked contents for implementation details.
-- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/de1d83403cede87a2d422c51d86f3b86e32b7d07/skills/unity-cli-helper/SKILL.md)
+- **GitHub:** [View file](https://github.com/Naiml007/naimur-opencode-agents/blob/15849f3ed72775585e58642b6642a9bade7df1f5/skills/unity-cli-helper/SKILL.md)
