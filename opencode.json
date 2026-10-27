@@ -10,10 +10,12 @@
   },
   "agent": {
     "orchestrator": {
-      "model": "opencode/big-pickle"
+      "model": "opencode/big-pickle",
+      "temperature": 0.1
     },
     "planner": {
-      "model": "opencode/big-pickle"
+      "model": "opencode/beam-free",
+      "temperature": 0.2
     },
     "researcher": {
       "model": "opencode/beam-free"
@@ -28,7 +30,8 @@
       "model": "opencode/beam-free"
     },
     "dev": {
-      "model": "opencode/big-pickle"
+      "model": "opencode/big-pickle",
+      "temperature": 0.1
     },
     "vision": {
       "model": "opencode/nemotron-3.5-super-vl-free"
@@ -62,21 +65,6 @@
     },
     "opencode": {
       "model": "opencode/big-pickle"
-    }
-  },
-  "mcp": {
-    "rea": {
-      "type": "local",
-      "command": [
-        "cmd.exe",
-        "/d",
-        "/c",
-        "npx",
-        "-y",
-        "rea-agents@6.4.0",
-        "mcp"
-      ],
-      "enabled": true
     }
   }
 }
