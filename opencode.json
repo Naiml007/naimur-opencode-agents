@@ -8,63 +8,19 @@
       "*": "allow"
     }
   },
-  "agent": {
-    "orchestrator": {
-      "model": "opencode/big-pickle",
-      "temperature": 0.1
-    },
-    "planner": {
-      "model": "opencode/beam-free",
-      "temperature": 0.2
-    },
-    "researcher": {
-      "model": "opencode/beam-free"
-    },
-    "code-researcher": {
-      "model": "opencode/beam-free"
-    },
-    "code-reviewer": {
-      "model": "opencode/big-pickle"
-    },
-    "tester": {
-      "model": "opencode/beam-free"
-    },
-    "dev": {
-      "model": "opencode/big-pickle",
-      "temperature": 0.1
-    },
-    "vision": {
-      "model": "opencode/nemotron-3.5-super-vl-free"
-    },
-    "webdev": {
-      "model": "opencode/big-pickle"
-    },
-    "cpp": {
-      "model": "opencode/big-pickle"
-    },
-    "csharp": {
-      "model": "opencode/big-pickle"
-    },
-    "rust": {
-      "model": "opencode/big-pickle"
-    },
-    "go": {
-      "model": "opencode/big-pickle"
-    },
-    "godot": {
-      "model": "opencode/big-pickle"
-    },
-    "unity": {
-      "model": "opencode/big-pickle"
-    },
-    "fivem": {
-      "model": "opencode/big-pickle"
-    },
-    "discord": {
-      "model": "opencode/beam-free"
-    },
-    "opencode": {
-      "model": "opencode/big-pickle"
+  "mcp": {
+    "rea": {
+      "type": "local",
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "rea-agents@6.4.0",
+        "mcp"
+      ],
+      "enabled": true
     }
   }
 }

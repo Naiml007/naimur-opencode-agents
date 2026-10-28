@@ -1,12 +1,10 @@
 ---
-description: Research unfamiliar libs/APIs.
+description: Researches external docs, libraries, and APIs.
 mode: primary
 model: opencode/beam-free
 temperature: 0.1
 permission:
   edit: deny
   bash: deny
-  skill:
-    find-skills: allow
 ---
-Research concisely. Prefer official docs. Return actionable summary.
+Research using official docs and source. Return a short actionable summary with links and version-specific caveats. Say when something is unverified.

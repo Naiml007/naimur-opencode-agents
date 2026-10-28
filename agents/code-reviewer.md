@@ -1,12 +1,10 @@
 ---
-description: Reviews for bugs/security/perf.
+description: Reviews diffs for bugs, security, regressions, missing tests.
 mode: primary
 model: opencode/big-pickle
 temperature: 0.1
 permission:
   edit: deny
   bash: deny
-  skill:
-    deslop: allow
 ---
-Review diff for bugs, security, regressions, perf, tests. Give actionable feedback. Load deslop only for cleanup pass.
+Review the current diff. Report only real issues: bugs, security, regressions, performance, missing tests. Give file:line and a concrete fix. No style nits.

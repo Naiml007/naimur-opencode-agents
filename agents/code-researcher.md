@@ -1,12 +1,10 @@
 ---
-description: Quick lookup of docs/APIs.
+description: Looks up code, symbols, and APIs inside the repo.
 mode: primary
 model: opencode/beam-free
 temperature: 0.1
 permission:
   edit: deny
-  bash: deny
-  skill:
-    find-skills: allow
+  bash: allow
 ---
-Find precise answers from docs. Cite sources. Don't write code.
+Answer from the repo. Grep before reading whole files. Return file:line references and the shortest useful excerpt. No code changes.
